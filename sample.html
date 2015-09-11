@@ -103,6 +103,12 @@
 	function switchVideo(video) {
 		$('#embed').html(unescape(video.html));
 	}
+	//uncomment the following 5 lines if you want to show a particular video on page load
+	/*
+	$(window).load(function() {
+		getVideo('http://vimeo.com/134911897');
+	});
+	*/
 </script>
 </head>
 <body>
